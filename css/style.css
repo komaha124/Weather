@@ -11,7 +11,7 @@
  }
  #border-box{
     width: 1000px;
-    padding: 30px 140px 50px 140px;
+    padding: 20px 140px 50px 140px;
     border: 25px solid #2B81AC;
     margin: 0 auto;
     background-color: #3399CC;
@@ -30,12 +30,15 @@
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
     padding: 35px 0 35px;
+
  }
  ul:hover li{
     opacity: 0.4;
+    transition: all .2s ease-in
  }
  div li:hover{
     opacity: 1;
+    transition: all .2s ease-in
  }
  .list li{
      font-size: 22px;
