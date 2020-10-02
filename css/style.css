@@ -1,12 +1,57 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.top{
+    color: white;
+    font-size: 22px;
+   
+}
 #border-box{
-    width: 900px;
-    height: 700px;
+    width: 800px;
+    height: 500px;
     padding: 40px;
     border: 25px solid #2B81AC;
+    padding: 50px;
     margin: 0 auto;
+    background-color: #3399CC;
+}
+/*
+.box-color{
+    width: 700px;
+    height: 500px;
+    border: solid white;
+    text-align: center;
+    padding: 0 20px;
+}
+*/
+.list{
+  
+    list-style-type: none;
+    text-align: center;
+    font-size: 0;
+    color: white;
+    /*border: solid white 5px;*/
+}
+ .list li{
+   
+     font-size: 22px;
+     display: inline-block;
+     height: 100px;
+   
+ }
+ .wid25{
+     width: 25%;
+ }
+ .wid50{
+    width: 50%;
+}
+.wid100{
+    width: 100%;
+}
+p{
+    margin: 2px 0;
+    padding: 0;
 }
