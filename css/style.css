@@ -1,100 +1,98 @@
-body{
+ body{
     margin: 0;
     padding: 0;
     background-color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans Unicode", sans-serif;
     color: white
-}
-.top{
+ }
+ .top{
     color: white;
     font-size: 22px;
-   
-}
-#border-box{
+ }
+ #border-box{
     width: 1000px;
     padding: 30px 140px 50px 140px;
     border: 25px solid #2B81AC;
     margin: 0 auto;
     background-color: #3399CC;
-}
-.list{
+ }
+ .list{
   padding: 0;
     list-style-type: none;
     text-align: center;
     font-size: 0;
-    color: #ffffff7d;
-}
-.list: hover{
-    color: red;
-}
-ul{
+ }
+ ul{
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
-}
-li{
+ }
+ li{
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
     padding: 35px 0 35px;
-}
+ }
+ ul:hover li{
+    opacity: 0.4;
+ }
+ div li:hover{
+    opacity: 1;
+ }
  .list li{
-   
      font-size: 22px;
      display: inline-block;
-
-
  }
  .wid25{
      width: 25%; 
  }
  .wid50{
     width: 50%;
-}
-.wid100{
+ }
+ .wid100{
     width: 100%;
-}
-p{
+ }
+ p{
     margin: 2px 0;
     padding: 10px;
     color: #ffffff7d;
-}
-.wi{
+ }
+ .wi{
     font-size: 30px;
-}
-li:nth-child(1) {
+ }
+ li:nth-child(1) {
     background-color: #3399CC;
-}
-li:nth-child(2) {
+ }
+ li:nth-child(2) {
     background-color: #33CCCC;
-}
-li:nth-child(3) {
+ }
+ li:nth-child(3) {
     background-color: #996699;
-}
-li:nth-child(4) {
+ }
+ li:nth-child(4) {
     background-color: #C24747;
-}
-li:nth-child(5) {
+ }
+ li:nth-child(5) {
     background-color: #E2674A;
-}
-li:nth-child(6) {
+ }
+ li:nth-child(6) {
     background-color: #FFCC66;
-}
-li:nth-child(7) {
+ }
+ li:nth-child(7) {
     background-color: #99CC99;
-}
-li:nth-child(8) {
+ }
+ li:nth-child(8) {
     background-color: #669999;
-}
-li:nth-child(9) {
+ }
+ li:nth-child(9) {
     background-color: #CC6699;
-}
-li:nth-child(10) {
+ }
+ li:nth-child(10) {
     background-color: #339966;
-}
-li:nth-child(11) {
+ }
+ li:nth-child(11) {
     background-color: #666699;
-}
-.text-bottom{
+ }
+ .text-bottom{
     color: white;
     font-size: 22px;
     margin-top: 40px;
-}
+ }
